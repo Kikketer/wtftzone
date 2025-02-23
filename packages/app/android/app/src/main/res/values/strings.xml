@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">wtftzone</string>
+    <string name="title_activity_main">wtftzone</string>
+    <string name="package_name">zone.wtft</string>
+    <string name="custom_url_scheme">zone.wtft</string>
+</resources>

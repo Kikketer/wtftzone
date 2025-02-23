@@ -1,0 +1,21 @@
+{
+  "name": "wtftzone",
+  "version": "1.0.0",
+  "description": "Testing the auth flow using Capacitor",
+  "main": "index.js",
+  "scripts": {
+    "app:dev": "pnpm run dev",
+    "app:build": "pnpm run build",
+    "app:sync": "pnpm run build && pnpm run cap sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikketer/wtftzone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kikketer/wtftzone/issues"
+  },
+  "homepage": "https://github.com/Kikketer/wtftzone#readme"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "wtftzone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
