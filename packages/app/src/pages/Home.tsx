@@ -24,7 +24,6 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <LoginComponent />
-        <DebugComponent />
       </IonContent>
     </IonPage>
   )
