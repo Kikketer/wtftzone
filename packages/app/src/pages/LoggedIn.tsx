@@ -15,6 +15,13 @@ export const LoggedIn = () => {
   const history = useHistory()
   const { supabase } = useSupabase()
 
+  // This works, but feels wrong:
+  // useEffect(() => {
+  //   closeBrowser().catch(() => {
+  //     // nom nom nom
+  //   })
+  // }, [])
+
   const signOut = async () => {
     await supabase.auth.signOut()
     history.push('/')
